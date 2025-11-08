@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewpoint"
+      content="width=device-width,
+    initial-scale=1.0"
+    />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="container1">
+      <h1 class="headH1">Anushka Tripathi</h1>
+      <nav id="container2">
+        <a href="#About" class="link">About</a>
+        <a href="#Projects" class="link">Projects</a>
+        <a href="#skill" class="link">Technical Skills</a>
+        <a href="#Contact" class="link">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="About">
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+          Hello! I'm Anushka Tripathi, a passionate web developer and tech
+          enthusiast. This portfolio showcases my skills, projects, and
+          experiences in the world of web development. Feel free to explore and
+          get in touch with me for any collaboration or opportunities!
+        </p>
+        <h1>About Me</h1>
+        <img
+          src="image.png"
+          alt="Anushka Tripathi"
+          title="Anushka Tripathi"
+          style="width: 250px; height: 250px; border-radius: 50%"
+        />
+        <p>
+          I'm Anushka Tripathi, a budding web developer with a keen interest in
+          creating dynamic and user-friendly websites. I have a strong
+          foundation in HTML, and I'm continuously learning and expanding my
+          skill set. My goal is to build innovative web applications that
+          provide seamless user experiences.
+        </p>
+      </section>
+      <hr />
+      <section id="skill">
+        <h1>Technical Skills</h1>
+        <table>
+          <thead>
+            <tr class="cell">
+              <th>Skill</th>
+              <th>Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Learning</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>Learning</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <hr />
+      <section id="Projects">
+        <h1>My projects</h1>
+        <ul class="pro">
+          <li>
+            <h4>Portfolio Website:</h4>
+            A personal portfolio website showcasing my skills, projects, and
+            contact information.
+          </li>
+          <li>
+            <h4>Registration Form:</h4>
+            A simple registration form that collects user information like name,
+            email, and password.
+          </li>
+          <li>
+            <h4>Blog:</h4>
+            A basic blog platform where users can read and write articles on
+            various topics.
+          </li>
+        </ul>
+      </section>
+      <hr />
+      <section id="Contact">
+        <h1>Contact Me</h1>
+        <table>
+          <form>
+            <tbody>
+              <tr>
+                <td><label for="name">Name</label></td>
+                <td>
+                  <input type="text" id="name" placeholder="Enter your name" />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="email">Email</label></td>
+                <td>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="no.">Mobile no.</label></td>
+                <td>
+                  <input
+                    type="number"
+                    id="no."
+                    pattern="[6-9][0-9]{9}"
+                    placeholder="Enter a 10 digit mobile no."
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="message">Message:</label></td>
+                <td>
+                  <textarea
+                    name=""
+                    id="message"
+                    placeholder="Enter your message"
+                  ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" class="button">
+                  <button type="submit" id="button">Send</button>
+                </td>
+              </tr>
+            </tbody>
+          </form>
+        </table>
+      </section>
+      <section>
+        <button
+          id="back-to-top"
+          onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+        >
+          ⬆ Back to the Top
+        </button>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; [2025] Anushka Tripathi. All rights reserved</p>
+    </footer>
+  </body>
+</html>
