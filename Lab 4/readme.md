@@ -1,1 +1,1 @@
-
+Hey! This is Anushka Tripathi. This project is about creating a simple JavaScript quiz game, that executes entirely within the browser. The code also keeps track of the user's score. I hope you'll face no errors while running this code! Happy Programming :)
